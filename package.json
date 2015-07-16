@@ -1,0 +1,26 @@
+{
+  "name": "ab-node",
+  "description": "A simple website based on HAPI/nodejs",
+  "version": "0.0.1",
+  "private": false,
+  "engines": {
+    "node": "0.10.x",
+    "npm": "1.2.x"
+  },
+  "dependencies": {
+    "config-multipaas": "0.0.6",
+    "hapi": "^7.5.2"
+  },
+  "devDependencies": {
+    "tap": "^0.4.13"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AdrianBalcan/ab-node.git"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "license": "",
+  "main": "server.js"
+}
